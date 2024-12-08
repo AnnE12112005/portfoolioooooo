@@ -1,0 +1,33 @@
+footer {
+    background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 5%, #B5FFFC 100%);
+
+
+}
+
+footer.container {
+    min-height: auto;
+}
+
+footer.container .inside {
+    padding: var(--mob-padding);
+}
+
+.social-icons {
+    list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.2); /* Ефект збільшення при наведенні */
+}
